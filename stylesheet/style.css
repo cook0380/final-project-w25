@@ -2,6 +2,7 @@ body {
   background-color: #fff;
   font-family: "Poppins", sans-serif;
   line-height: 1.4;
+  margin: 0;
   }
 
 h1 {font-size: 2.027rem;
@@ -15,7 +16,7 @@ img {
   
 .wrapper {
   max-width: 940px;
-  margin: 2em auto;
+  margin: 0 auto;
 }
 header img {
   width: auto;
@@ -37,8 +38,9 @@ header div ul{
   align-items: center;
   padding: 2rem;}
 
- a:hover,
- a:target {
+a {text-decoration: none; color: #000;}
+a:hover,
+a:target {
     background-color: #f8fafc;
     color: #000;
     text-decoration: none;
@@ -58,6 +60,14 @@ header div ul li a{
   color: #000;
 }
 
+.sweetheart-text {
+display: flex;
+flex-direction: column;
+}
+.sweetheart-text a {
+  width: 6rem;
+}
+
 section div a {padding: 1rem;}
 .btn {
   color: #fff; 
@@ -68,6 +78,7 @@ section div a {padding: 1rem;}
 
 
 .behind-the-dough {
+  padding: 2rem;
   background-color: #f8fafc;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -90,6 +101,8 @@ section div a {padding: 1rem;}
 .testimonial {  
   background-color: #000;
   color: #fff;
+  padding: 1rem 0;
+  margin: 0;
  }
 .testimonial div h2 { 
   text-align: center;}
@@ -97,9 +110,13 @@ section div a {padding: 1rem;}
 .testimonial-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 1rem;
+  gap: 0rem;
 }
 
+.try-it {
+  margin: 4rem 0;
+  text-align: center;
+}
 .try-it-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -110,9 +127,7 @@ section div a {padding: 1rem;}
   background-color: #f8fafc;
   color: #000000;
   border-radius: 4px;
-  text-align: center;
 }
-
 
 footer {
   text-align: center;
