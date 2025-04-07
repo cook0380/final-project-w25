@@ -5,7 +5,7 @@ body {
   margin: 0;
   }
 section {
-  padding: 2rem;
+  padding: 0 0 2rem;
 }
 
 h1 {font-size: 2.027rem;
@@ -28,6 +28,7 @@ img {
   padding: 1rem;
 }
 header img {
+  height: 2.5rem;
   width: auto;
 }
 header div {
@@ -43,7 +44,7 @@ header div ul{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;}
+  padding: 0rem;}
 
 a {
   text-decoration: none; 
@@ -112,7 +113,6 @@ section div a {padding: 0.5rem 1rem;}
 }
 
 .behind-the-dough {
-  padding: 2rem;
   background-color: #f8fafc;
 }
 .behind-the-dough-grid {
